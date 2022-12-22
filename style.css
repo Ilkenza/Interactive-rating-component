@@ -1,0 +1,142 @@
+body {
+  font-family: "Overpass", sans-serif;
+  background: #141519;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 970px;
+}
+body .s1 {
+  width: 350px;
+  height: 350px;
+  background: rgba(37, 45, 55, 0.4);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 30px;
+}
+body .s1 .s1-star img {
+  background: rgb(37, 45, 55);
+  padding: 15px;
+  border-radius: 50%;
+}
+body .s1 .s1-txt h3 {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 27px;
+}
+body .s1 .s1-txt p {
+  color: hsl(217deg, 12%, 63%);
+  font-size: 15px;
+}
+body .s1 .s1-rate {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+body .s1 .s1-rate button {
+  text-decoration: none;
+  color: hsl(216deg, 12%, 54%);
+  width: 50px;
+  display: flex;
+  height: 50px;
+  background: rgb(37, 45, 55);
+  border-radius: 50%;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  border: none;
+}
+body .s1 .s1-rate button:hover {
+  background: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+body .s1 .s1-rate button:focus{
+  background: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+body .s1 .sbmt {
+  width: 100%;
+  padding: 20px 0px 0px 0px;
+}
+body .s1 .sbmt button {
+  width: 100%;
+  background: hsl(25deg, 97%, 53%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  height: 50px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-weight: 500;
+  color: hsl(0deg, 0%, 100%);
+  border: none;
+}
+body .s1 .sbmt button:hover {
+  background: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+  font-weight: 700;
+}
+body .display{
+  display: none;
+}
+
+body .s2 {
+  width: 350px;
+  height: 350px;
+  background: rgba(37, 45, 55, 0.4);
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 30px;
+}
+body .hidden{
+  display: none;
+}
+body .s2 .s2-thn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px 10px;
+}
+body .s2 .s2-rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .s2 .s2-rate p {
+  color: hsl(25deg, 97%, 53%);
+  background: rgb(37, 45, 55);
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+body .s2 .s2-rate .sel {
+  color: hsl(25deg, 97%, 53%);
+}
+body .s2 .s2-txt {
+  text-align: center;
+}
+body .s2 .s2-txt h3 {
+  font-size: 1.8rem;
+  color: hsl(0deg, 0%, 100%);
+  margin: 15px 0px 0px;
+}
+body .s2 .s2-txt p {
+  color: hsl(217deg, 12%, 63%);
+  font-size: 0.97rem;
+}
+body .attribution { 
+  font-size: 11px;
+  margin-top: 20px; 
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+}
+body .attribution a {
+  color: hsl(0, 0%, 100%); 
+}/*# sourceMappingURL=style.css.map */
