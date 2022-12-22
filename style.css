@@ -50,6 +50,7 @@ body .s1 .s1-rate button {
   justify-content: center;
   font-weight: 700;
   border: none;
+  cursor: pointer;
 }
 body .s1 .s1-rate button:hover {
   background: hsl(25deg, 97%, 53%);
@@ -76,6 +77,7 @@ body .s1 .sbmt button {
   font-weight: 500;
   color: hsl(0deg, 0%, 100%);
   border: none;
+  cursor: pointer;
 }
 body .s1 .sbmt button:hover {
   background: hsl(0deg, 0%, 100%);
